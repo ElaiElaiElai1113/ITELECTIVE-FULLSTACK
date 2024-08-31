@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    to right,
+    #ffa31a 0%,
+    #ffa31a 50%,
+    #1b1b1b 50%,
+    #1b1b1b 100%
+  );
+}
+
+.landing-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-text {
+  width: 50%;
+  padding: 50px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.landing-text h1 {
+  font-size: 64px;
+}
+
+/*-------- HUB LOGO ------------*/
+h1 > .wholelogo {
+  font-size: 42px;
+
+  padding: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #1b1b1b;
+  color: white;
+  border-radius: 5px;
+}
+
+.otherhalf {
+  padding: 5px;
+  background-color: #ffa31a;
+  border-radius: 10px;
+  color: #1b1b1b;
+}
+
+h1 > .blackpartoflogo {
+  background-color: #1b1b1b;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* END LOGO */
+
+.landing-text p {
+  color: grey;
+  font-size: 1.25rem;
+  padding-top: 50px;
+}
+
+.landing-img {
+  width: 50%;
+  padding: 50px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 75%;
+  height: auto;
+}
+
+/* NAVBAR */
+
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding: 30px 30px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+li a:hover {
+  background-color: #ffa31a;
+  color: #1b1b1b;
+}
+
+/* NAVBAR END */
