@@ -22,7 +22,8 @@ body {
   align-items: center;
   width: 80%;
   height: 80%;
-  background-color: white;
+  border-radius: 25px;
+  background-color: #f4f3f2;
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -31,7 +32,6 @@ body {
 .landing-text {
   width: 50%;
   padding: 50px;
-  background-color: white;
   border-radius: 20px;
 }
 
@@ -54,14 +54,14 @@ h1 > .wholelogo {
 .otherhalf {
   padding: 5px;
   background-color: #ffa31a;
-  border-radius: 10px;
+  border-radius: 3px;
   color: #1b1b1b;
 }
 
 h1 > .blackpartoflogo {
   background-color: #1b1b1b;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 /* END LOGO */
@@ -75,7 +75,7 @@ h1 > .blackpartoflogo {
 .landing-img {
   width: 50%;
   padding: 50px;
-  background-color: white;
+
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -110,7 +110,21 @@ li a {
   font-size: 16px;
 }
 
+@keyframes hoverAnim {
+  0% {
+    background-color: #1b1b1b;
+  }
+  50% {
+    background-color: #1b1b1b;
+  }
+  100% {
+    background-color: #ffa31a;
+  }
+}
+
 li a:hover {
+  animation-name: hoverAnim;
+  animation-duration: 0.15s;
   background-color: #ffa31a;
   color: #1b1b1b;
 }
