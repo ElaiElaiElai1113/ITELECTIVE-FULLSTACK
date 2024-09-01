@@ -39,9 +39,11 @@ body {
   font-size: 64px;
 }
 
+hr {
+}
 /*-------- HUB LOGO ------------*/
 h1 > .wholelogo {
-  font-size: 42px;
+  font-size: 52px;
 
   padding: 12px;
   padding-top: 15px;
@@ -85,6 +87,7 @@ h1 > .blackpartoflogo {
 img {
   max-width: 75%;
   height: auto;
+  border-radius: 25px;
 }
 
 /* NAVBAR */
