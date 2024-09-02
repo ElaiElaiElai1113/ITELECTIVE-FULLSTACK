@@ -42,28 +42,38 @@ body {
 hr {
 }
 /*-------- HUB LOGO ------------*/
-h1 > .wholelogo {
-  font-size: 42px;
+h2 > .wholelogo {
+  font-size: 64px;
   font-weight: bolder;
-  padding: 12px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 20px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   background-color: #1b1b1b;
   color: white;
   border-radius: 5px;
 }
 
+h1,
+h3 {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  font-size: 64px;
+  font-family: sans-serif;
+}
+
 .otherhalf {
-  padding: 5px;
+  padding: 8px 10px;
   background-color: #ffa31a;
   border-radius: 3px;
   color: #1b1b1b;
+  margin-left: 5px;
 }
 
-h1 > .blackpartoflogo {
+h2 > .blackpartoflogo {
   background-color: #1b1b1b;
   text-align: center;
   border-radius: 2px;
+  padding-right: 20px;
 }
 
 /* END LOGO */
@@ -130,3 +140,16 @@ li a:hover {
 }
 
 /* NAVBAR END */
+
+/* Footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #f4f3f2;
+  color: white;
+  text-align: center;
+}
