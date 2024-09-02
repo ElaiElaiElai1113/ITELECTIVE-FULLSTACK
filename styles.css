@@ -42,7 +42,7 @@ body {
 /*-------- HUB LOGO ------------*/
 h1 > .wholelogo {
   font-size: 42px;
-
+  font-weight: bolder;
   padding: 12px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -77,9 +77,6 @@ h1 > .blackpartoflogo {
   padding: 50px;
 
   border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 img {
