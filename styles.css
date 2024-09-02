@@ -43,8 +43,8 @@ hr {
 }
 /*-------- HUB LOGO ------------*/
 h2 > .wholelogo {
-  font-size: 64px;
-  font-weight: bolder;
+  font-size: 52px;
+  font-weight: bold;
   padding: 20px 20px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -53,11 +53,17 @@ h2 > .wholelogo {
   border-radius: 5px;
 }
 
+.fullstack,
+.softwaredev {
+  display: flex;
+  color: #ffa31a;
+}
+
 h1,
 h3 {
   padding-bottom: 25px;
   padding-top: 25px;
-  font-size: 64px;
+  font-size: 52px;
   font-family: sans-serif;
 }
 
@@ -150,6 +156,7 @@ li a:hover {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: #f4f3f2;
-  color: white;
+  color: black;
+  font-weight: bold;
   text-align: center;
 }
