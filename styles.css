@@ -18,12 +18,14 @@ body {
 
 .landing-page {
   display: flex;
+
   justify-content: space-between;
   align-items: center;
   width: 80%;
   height: 80%;
-  border-radius: 25px;
-  background-color: #f4f3f2;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: #f2f2f2;
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
@@ -39,8 +41,6 @@ body {
   font-size: 64px;
 }
 
-hr {
-}
 /*-------- HUB LOGO ------------*/
 h2 > .wholelogo {
   font-size: 52px;
@@ -149,13 +149,14 @@ li a:hover {
 
 /* Footer */
 .footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
+
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
-  background-color: #f4f3f2;
+  background-color: #f2f2f2;
   color: black;
   font-weight: bold;
   text-align: center;
