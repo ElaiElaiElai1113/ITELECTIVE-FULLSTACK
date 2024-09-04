@@ -12,8 +12,7 @@ body {
   background: linear-gradient(
     to right,
     #ffa31a 0%,
-    #ffa31a 50%,
-    #1b1b1b 50%,
+
     #1b1b1b 100%
   );
   display: flex;
@@ -55,7 +54,8 @@ li a {
   text-decoration: none;
   font-size: 32px;
   font-family: "Times New Roman", Times, serif;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
 }
 
 @keyframes hoverAnim {
@@ -120,7 +120,12 @@ li a:hover {
 }
 
 .progress-bar {
-  background-color: rgb(116, 194, 92);
+  background: linear-gradient(
+    to right,
+    #ffa31a 0%,
+
+    #1b1b1b 100%
+  );
   color: white;
   padding: 1%;
   text-align: right;
@@ -135,11 +140,21 @@ li a:hover {
   overflow: hidden;
 }
 
-.html {
+.html,
+.dart,
+.flutter {
+  width: 70%;
+}
+.JS {
   width: 50%;
 }
 
-.flutter {
+.css {
   width: 60%;
 }
+
+.supabase {
+  width: 65%;
+}
+
 /* END */
